@@ -14,3 +14,18 @@ const r = new Snoowrap ( {
 });
 
 const client = new Snoostorm(r);
+
+// Configure options for stream: subreddit & results per query
+const streamOpts = {
+    subreddit: 'all',
+    results: 25
+};
+
+// Create a Snoostorm CommentStream with the specified options
+const comments = client.CommentStream(streamOpts);
+
+// On comment, perform whatever logic you want to do
+comments.on('comment', (comment) => {
+    console.log(comment);
+});
+  
