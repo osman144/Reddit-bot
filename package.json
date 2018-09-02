@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/osman144/Reddit-bot#readme",
   "dependencies": {
-    "dotenv": "^6.0.0"
+    "dotenv": "^6.0.0",
+    "snoostorm": "0.0.5",
+    "snoowrap": "^1.15.2"
   }
 }
