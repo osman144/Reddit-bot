@@ -17,8 +17,8 @@ const client = new Snoostorm(r);
 
 // Configure options for stream: subreddit & results per query
 const streamOpts = {
-    subreddit: 'testingground4bots',
-    results: 2
+    subreddit: 'soccer',
+    results: 25
 };
 
 // Create a Snoostorm CommentStream with the specified options
